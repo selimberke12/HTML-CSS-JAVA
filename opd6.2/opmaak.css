@@ -1,63 +1,55 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-}
+header {
 
-.container {
     display: flex;
-    max-width: 1200px;
+
     justify-content: space-between;
-    flex-wrap: wrap;
+
+    align-items: center;
+
+    background-color: #ffffff;
+
+    padding: 10px;
+
 }
 
-.square1 {
-    width: 200px;
-    height: 200px;
-    background-color: #3498db;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    color: white;
+.logo, .login {
+
+    width: 25%;
+
+    text-align: center;
+
+    color: #3900e4;
+
 }
 
-.square2 {
-    width: 200px;
-    height: 200px;
-    background-color: #000000;
-    margin: 10px;
+nav ul {
+
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    color: white;
+
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    width: 50%;
+
+    justify-content: space-between;
+
+ 
+
 }
 
-.square3 {
-    width: 200px;
-    height: 200px;
-    background-color: #ff0000;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    color: white;
+nav li {
+
+    margin: 25px;
+
 }
 
+nav a {
 
-.square4 {
-    width: 200px;
-    height: 200px;
-    background-color: #01561b;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    color: white;
+    text-decoration: none;
+
+    color: #3900e4;
+
 }
