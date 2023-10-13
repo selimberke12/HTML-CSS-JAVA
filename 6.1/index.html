@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kleur Aanpassen</title>
+</head>
+<body>
+  <h1 id="mijn_h1">Dit is een h1-element</h1>
+
+  <script>
+    function kleur_aanpassen() {
+      var h1Element = document.getElementById("mijn_h1");
+    
+      h1Element.style.color = "red";
+      
+      
+      h1Element.textContent = "Inhoud aangepast!";
+    }
+
+    kleur_aanpassen();
+  </script>
+</body>
+</html>
