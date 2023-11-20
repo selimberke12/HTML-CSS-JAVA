@@ -1,111 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Ouderavond Website</title>
-    <style>
-        body {
-            background-color: #A9A9A9;
-            font-family: Arial, sans-serif;
-            color: #FFFFFF;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #808080;
-            color: #FFFFFF;
-            padding: 10px;
-            text-align: center;
-            position: relative;
-        }
-        nav {
-            background-color: #A9A9A9;
-            padding: 10px;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-            justify-content: space-between;
-        }
-        nav li {
-            background-color: #333;
-            padding: 10px 0; 
-            border-radius: 5px;
-            width: 120px; 
-            text-align: center; 
-        }
-        nav li:not(:last-child) {
-            margin-right: 10px;
-        }
-        nav li a {
-            text-decoration: none;
-            color: #FFFFFF;
-        }
-        .logo {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            width: 225px;
-            height: auto;
-        }
-        main {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-gap: 20px;
-            padding: 20px;
-        }
-        section {
-            background-color: #333;
-            padding: 20px;
-            border-radius: 5px;
-            color: #FFFFFF;
-        }
-        h2 {
-            margin-top: 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookie Wall</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="fotos/logotcr.webp" alt="Techniek College Rotterdam Logo" class="logo">
-        <h1>Ouderavond Website</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="opldeidingen.html">Opleidingen</a></li>
-            <li><a href="studenten.html">TCR</a></li>
-            <li><a href="bsa.html">BSA</a></li>
-            <li><a href="eduarte.html">Eduarte</a></li>
-            <li><a href="examenplan.html">Examenplan</a></li>
-            <li><a href="over ons.html">Over ons</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <h2>Opleidingen</h2>
-            <p>Bekijk onze opleidingen.</p>
-        </section>
-        <section>
-            <h2>Over de Studenten</h2>
-            <p>Hier kunt u informatie vinden over de studenten die bij ons op school zitten.</p>
-        </section>
-        <section>
-            <h2>Over BSA</h2>
-            <p>Lees hier meer over het Bindend Studieadvies (BSA) op onze school.</p>
-        </section>
-        <section>
-            <h2>Over Eduarte</h2>
-            <p>Ontdek alles over ons educatieve platform Eduarte.</p>
-        </section>
-        <section>
-            <h2>Examenplan</h2>
-            <p>Bekijk het examenplan van onze school.</p>
-        </section>
-        <section>
-            <h2>Over ons</h2>
-            <p>Hier vertellen we wat over ons zelf.</p>
-        </section>
-    </main>
+    <h1>eloooooo</h1>
+  <div class="cookie-wall" id="cookieWall">
+    <p>Dit is een cookie-melding. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Lees meer</a></p>
+    <button onclick="acceptCookies()">Ik accepteer</button>
+  </div>
+
+  <div class="content" id="content" style="display: none;">
+    <h1>Welkom bij de website</h1>
+    <p>ssdsdsdsd</p>
+  </div>
+
+  <script src="java.js"></script>
 </body>
 </html>
